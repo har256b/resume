@@ -1,3 +1,6 @@
+![Circle CI](https://circleci.com/gh/har256b/resume/tree/master.png)
+![Travis CI](https://api.travis-ci.org/har256b/resume.svg?branch=master)
+
 # resume 2.0
 
 > My personal resume Vue.js version 
