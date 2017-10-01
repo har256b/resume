@@ -11,9 +11,10 @@ module.exports = {
     browser
       .url(devServer)
       .waitForElementVisible('#app', 5000)
-      .assert.elementPresent('.hello')
-      .assert.containsText('h1', 'Welcome to Your Vue.js App')
-      .assert.elementCount('img', 1)
+      .assert.elementPresent('#name')
+      .waitForElementVisible('.quickFade.delayTwo', 5000)
+      .assert.containsText('#name h1', 'Hafiz Abdul Rehman!')
+      .assert.elementCount('img', 0)
       .end()
   }
 }
