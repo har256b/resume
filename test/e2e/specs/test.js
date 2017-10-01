@@ -13,7 +13,7 @@ module.exports = {
       .waitForElementVisible('#app', 5000)
       .assert.elementPresent('#name')
       .waitForElementVisible('.quickFade.delayTwo', 5000)
-      .assert.containsText('#name h1', 'Hafiz Abdul Rehman!')
+      .assert.containsText('#name h1', 'Abdul Rehman, Hafiz')
       .assert.elementCount('img', 0)
       .end()
   }

@@ -6,6 +6,6 @@ describe('Resume.vue', () => {
     const Constructor = Vue.extend(Resume)
     const vm = new Constructor().$mount()
     expect(vm.$el.querySelector('#name h1').textContent)
-      .to.equal('Hafiz Abdul Rehman!')
+      .to.equal('Abdul Rehman, Hafiz')
   })
 })
