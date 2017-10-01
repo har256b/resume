@@ -57,38 +57,6 @@
                 <h1>Key Skills</h1>
             </div>
             <div class="sectionContent">
-                <!-- <table class="keySkills" style="font-size:14px; width:100% ">
-                    <tr>
-                        <td>Project Management</td>
-                        <td>System Analysis &amp; Design</td>
-                        <td>System Architecture</td>
-                    </tr>
-                    <tr>
-                        <td>PHP5 &amp; Hack</td>
-                        <td>Zend, Laravel</td>
-                        <td>Code Igniter</td>
-                    </tr>
-                    <tr>
-                        <td>MySQL, MSSQL </td>
-                        <td>MongoDB, Redis</td>
-                        <td>Big Data, Cassandra</td>
-                    </tr>
-                    <tr>
-                        <td>HTML5, CSS3 </td>
-                        <td>jQuery, AngularJS</td>
-                        <td>JSON, Web Services</td>
-                    </tr>
-                    <tr>
-                        <td>Ruby, Rails </td>
-                        <td>Phthon, Django</td>
-                        <td>MS Technologies</td>
-                    </tr>
-                    <tr>
-                        <td>Linux Lover </td>
-                        <td>LAMP/LEMP Stack</td>
-                        <td>FullStack/DevOps Engineer</td>
-                    </tr>
-                </table> -->
                 <div class="keySkills">
                     <li class="skill" v-for="skill in skills">
                       {{ skill.skill }}
@@ -137,61 +105,61 @@ export default {
   name: 'resume',
   data () {
     return {
-      name: 'Hafiz Abdul Rehman!',
+      name: 'Abdul Rehman, Hafiz',
       title: 'Software Engineering Architect',
       cover: 'Software Engineering Architect with 8+ years of experience developing leading-edge technologies.',
       experiences: [
         {
           position: 'FullStack Cloud Developer',
-          company: 'Flexperto GmbH',
+          company: 'Flexperto GmbH (Berlin, Germany)',
           duration: 'November 2016 - Present',
           description: 'Being a part of core team am responsible for brain storm, plan and execute new features in our Sass platform used by several leading financial institutions. Our platform is built on top of several modern technologies i.e. PHP 7, Node JS, MySQL, Redis, Socket IO, Web RTC, Elastic Search, Kibana and more. Our platform consist of several micro services running on containerized infrastructure.'
         },
         {
           position: 'Lead Software Engineer',
-          company: 'Visual Spark Technologies L.L.C.',
+          company: 'Visual Spark Technologies L.L.C. (Dubai, United Arab Emirates)',
           duration: 'March 2016 - November 2016',
           description: 'Plan and Build new application for Inasurance industry using modern technologies i.e. Laravel for the Restful API and AngularJS on the frontend to consume. Also develop integration drivers for several leading insurance companies. I was also responsible for agility of the product using scrum methodology.'
         },
         {
           position: 'Principal Software Engineer',
-          company: 'Axxya Systems L.L.C.',
+          company: 'Axxya Systems L.L.C. (WA, USA)',
           duration: 'February 2014 - Present',
           description: 'Planning, Architecturing and Implementing awesome coode in Laravel (and Symfony) and writing models for hybrid linkages between MySQL and MongoDB using Laravel\'s Eloquent ORM for an application being used by top leading Hospitals, Nutrinionists and Hotels of the USA and rest of the World. Also writing RIA interface for client side using AngularJS and jQuery to implement and consume application\'s architecture (Service Oriented Architecture). managing and helping out junior team members(5 in number) to complete their tasks and conduct daily scrum meetings to track the progress.'
         },
         {
           position: 'Senior Software Engineer',
-          company: 'Cube Discipline',
+          company: 'Cube Discipline (Islamabad, Pakistan)',
           duration: 'May 2013 - January 2014',
           description: 'Producing robust coode in Zend Framework (PHP) and writing optimized queries for MySQL and MongoDB to for an application being used by top notch universities of the world. Also writing complex components in jQuery/KnockoutJS and taking part in application architecture (Service Oriented Architecture). Helping junior team members to complete their tasks and conduct daily debates on emerging technologies.'
         },
         {
           position: 'Senior Seoftware Engoneer',
-          company: 'Datum Square IT Services',
+          company: 'Datum Square IT Services (Islamabad, Pakistan)',
           duration: 'November 2012 - April 2013',
           description: 'Interacting with clients; gather information and develop the required functionalities, in Online Virtual Office Application (Custom Built for client) using modern development technologies (CI, MySQL, jQuery). I was also involved in writing and implementing Web Services and other required 3rd party development.'
         },
         {
           position: 'Lead Application Development Officer',
-          company: 'Trust for Democratic Education and Accountability',
+          company: 'Trust for Democratic Education and Accountability (Islamabad, Pakistan)',
           duration: 'December 2011 - November 2013',
           description: 'Produced an application (web and mobile based) for Pakistan\'s largest monitoring activity in General Elections 2013. To gather requirements from several departments and Designing & Architecture the new features for application(s), Responsible for maintain the health of servers (Linux) as well. Mainly responsible for Architecture Development and Leading the Team.'
         },
         {
           position: 'Assistant Project Manager (Technical)',
-          company: 'AusPak Soft Solutions',
+          company: 'AusPak Soft Solutions (Rawalpindi, Pakistan)',
           duration: 'August 2010 - July 2011',
           description: 'I was responsible to manage the team, and use my team to produce quality stuff using best practices, I have successfully manage many client\'s projects and few of the office assets(products) including, Inventory System, Accounting System, Human Resource Recruitment & Management System, Enterprise Resource Planner, Point of Sale and Online Advertising Portal. I have also promoted from Senior Team Lead to Assistant Project Manager (technical) in reward of my passion and dedication towords work.'
         },
         {
           position: 'Web & Software Engineer',
-          company: 'redpixels Inc.',
+          company: 'redpixels Inc. (Islamabad, Pakistan)',
           duration: 'October 2009 - July 2011',
           description: 'My major role was to design the system and solutions for the web & multimedia industry, I have many projects in my basket to show off including the Military Services; I have developed an interactive multimedia learning kit of the Helicopter MI-17 for Pakistan Army Aviation College.'
         },
         {
           position: 'Web Developer',
-          company: 'Global Marketing Services',
+          company: 'Global Marketing Services (Rawalpindi, Pakistan)',
           duration: 'June 2006 - September 2009',
           description: 'I was responsible to manage, develop and enhance all internal applications; I did develop many of the apps for our office use, including Order Processing System, Information Management System, Intranet Social Portal and more.'
         }
@@ -210,19 +178,19 @@ export default {
           order: 1
         },
         {
-          skill: 'PHP5 & Hack',
+          skill: 'PHP, GO, Python',
           order: 1
         },
         {
-          skill: 'Zend, Laravel',
+          skill: 'Symfony, Laravel',
           order: 1
         },
         {
-          skill: 'Code Igniter',
+          skill: 'Yii, Code Igniter',
           order: 1
         },
         {
-          skill: 'MySQL, MSSQL',
+          skill: 'MySQL, PostgreSQL',
           order: 1
         },
         {
@@ -234,19 +202,19 @@ export default {
           order: 1
         },
         {
-          skill: 'HTML5, CSS3',
+          skill: 'HTML5, CSS3/Sass',
           order: 1
         },
         {
-          skill: 'jQuery, AngularJS',
+          skill: 'AngularJS, VueJS, VanillaJS',
           order: 1
         },
         {
-          skill: 'JSON, Web Services',
+          skill: 'JSON, JWT, RESTful APIs',
           order: 1
         },
         {
-          skill: 'Linux Lover',
+          skill: 'Linux, CI/CD, Containers',
           order: 1
         },
         {
