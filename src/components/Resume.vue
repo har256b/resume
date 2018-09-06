@@ -141,14 +141,14 @@ export default {
           description: 'Producing robust coode in Zend Framework (PHP) and writing optimized queries for MySQL and MongoDB to for an application being used by top notch universities of the world. Also writing complex components in jQuery/KnockoutJS and taking part in application architecture (Service Oriented Architecture). Helping junior team members to complete their tasks and conduct daily debates on emerging technologies.'
         },
         {
-          position: 'Senior Seoftware Engoneer',
+          position: 'Senior Seoftware Engineer',
           company: 'Datum Square IT Services (Islamabad, Pakistan)',
           duration: 'November 2012 - April 2013',
           description: 'Interacting with clients; gather information and develop the required functionalities, in Online Virtual Office Application (Custom Built for client) using modern development technologies (CI, MySQL, jQuery). I was also involved in writing and implementing Web Services and other required 3rd party development.'
         },
         {
           position: 'Lead Application Development Officer',
-          company: 'Trust for Democratic Education and Accountability (Islamabad, Pakistan)',
+          company: 'Trust for Democratic Education and Accountability - FAFEN (Islamabad, Pakistan)',
           duration: 'December 2011 - November 2013',
           description: 'Produced an application (web and mobile based) for Pakistan\'s largest monitoring activity in General Elections 2013. To gather requirements from several departments and Designing & Architecture the new features for application(s), Responsible for maintain the health of servers (Linux) as well. Mainly responsible for Architecture Development and Leading the Team.'
         },
