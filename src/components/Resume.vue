@@ -15,6 +15,7 @@
                         <ul>
                             <li><a href="mailto:ask@harehman.com" target="_blank">ask@harehman.com</a></li>
                             <li><a href="https://harehman.com" target="_blank">https://harehman.com</a></li>
+                            <li><a href="https://www.linkedin.com/in/har256b" target="_blank">https://www.linkedin.com</a></li>
                         </ul>
                     </div>
                 </td>
@@ -107,12 +108,18 @@ export default {
     return {
       name: 'Abdul Rehman, Hafiz',
       title: 'Software Engineering Architect',
-      cover: 'Software Engineering Architect with 8+ years of experience developing leading-edge technologies.',
+      cover: 'With 8+ years of experience developing leading-edge technologies and architecting enterprise scale applications',
       experiences: [
         {
-          position: 'FullStack Cloud Developer',
+          position: 'Senior Software Engineer (Backend)',
+          company: 'Products Up GmbH (Berlin, Germany)',
+          duration: 'June 2018 - Present',
+          description: 'As a member of backend engineering team, I am responsible for developing new executables entities for the upcoming features by following best practices and principles. Not only building them but also taking full responsibility from development to production and build Jenkins jobs to maintain scalability. We are using PHP in a way that each executable is highly decoupled and extremely coherrent to work together.'
+        },
+        {
+          position: 'Fullstack Cloud Developer',
           company: 'Flexperto GmbH (Berlin, Germany)',
-          duration: 'November 2016 - Present',
+          duration: 'November 2016 - June 2018',
           description: 'Being a part of core team am responsible for brain storm, plan and execute new features in our Sass platform used by several leading financial institutions. Our platform is built on top of several modern technologies i.e. PHP 7, Node JS, MySQL, Redis, Socket IO, Web RTC, Elastic Search, Kibana and more. Our platform consist of several micro services running on containerized infrastructure.'
         },
         {
@@ -124,8 +131,8 @@ export default {
         {
           position: 'Principal Software Engineer',
           company: 'Axxya Systems L.L.C. (WA, USA)',
-          duration: 'February 2014 - Present',
-          description: 'Planning, Architecturing and Implementing awesome coode in Laravel (and Symfony) and writing models for hybrid linkages between MySQL and MongoDB using Laravel\'s Eloquent ORM for an application being used by top leading Hospitals, Nutrinionists and Hotels of the USA and rest of the World. Also writing RIA interface for client side using AngularJS and jQuery to implement and consume application\'s architecture (Service Oriented Architecture). managing and helping out junior team members(5 in number) to complete their tasks and conduct daily scrum meetings to track the progress.'
+          duration: 'February 2014 - November 2016',
+          description: 'Planning, Architecting and Implementing awesome coode in Laravel (and Symfony) and writing models for hybrid linkages between MySQL and MongoDB using Laravel\'s Eloquent ORM for an application being used by top leading Hospitals, Nutrinionists and Hotels of the USA and rest of the World. Also writing RIA interface for client side using AngularJS and jQuery to implement and consume application\'s architecture (Service Oriented Architecture). managing and helping out junior team members(5 in number) to complete their tasks and conduct daily scrum meetings to track the progress.'
         },
         {
           position: 'Senior Software Engineer',
@@ -178,7 +185,7 @@ export default {
           order: 1
         },
         {
-          skill: 'PHP, GO, Python',
+          skill: 'PHP, Golang, Python',
           order: 1
         },
         {
@@ -194,11 +201,11 @@ export default {
           order: 1
         },
         {
-          skill: 'MongoDB, Redis',
+          skill: 'MongoDB, OrientDB',
           order: 1
         },
         {
-          skill: 'Big Data, Cassandra',
+          skill: 'RethinkDB, Cassandra',
           order: 1
         },
         {
@@ -214,11 +221,11 @@ export default {
           order: 1
         },
         {
-          skill: 'Linux, CI/CD, Containers',
+          skill: 'Linux, CI/CD, Vagrant',
           order: 1
         },
         {
-          skill: 'LAMP/LEMP Stack',
+          skill: 'Docker, Scalability',
           order: 1
         },
         {
@@ -228,7 +235,7 @@ export default {
       ],
       educations: [
         {
-          title: 'BS (<em>Software Engineering</em>)',
+          title: 'BS (<em>Software Engineering</em>)*',
           institute: 'Islamic International University, Islamabad',
           description: 'Specialized in software engineering along with distributed database systems and application security.'
         },
@@ -239,6 +246,21 @@ export default {
         }
       ],
       recommendations: [
+        {
+          name: 'Felix Anthonj',
+          position: 'Founder & CEO @ Flexperto GmbH – Germany',
+          comment: 'Hafiz is an excellent full stack developer and colleague - 100% committed, easy to manage - able to deliver. I worked with him for more than a year and I was impressed by his talent to think out-of-the box. I would appreciate to have the chance to work with him again in the future.'
+        },
+        {
+          name: 'Slava Popov',
+          position: 'Software Engineer @ Flexperto GmbH – Germany',
+          comment: 'Hafiz is a topnotch professional with strong knowledge in many software engineering aspects and with great soft skills as well. I\'ve been working with him for more than a year, and that was only positive experience. Would be happy to work together again someday!'
+        },
+        {
+          name: 'Guillaume Jechoux',
+          position: 'QA Engineer @ Flexperto GmbH – Germany',
+          comment: 'It has been a pleasure to work with Hafiz. He is respectful and friendly. I was a QA engineer so I gave him a lot of feedback concerning the product we worked on, he always listened to what I had to say, and calmly explained why I was wrong when it was the case. He reacted very fast when necessary.'
+        },
         {
           name: 'Peter Lämmer',
           position: 'Business Development Manager - Partnerships @ Microsoft – Germany',
@@ -263,6 +285,16 @@ export default {
           name: 'Mari Carmen Quinteros',
           position: 'Co-Founder & CEO @ Crea Digital – El Salvador',
           comment: 'hafiz is no doubt is hard working & challenging person, he did really help me a lot in achieving my deadlines & serve every time efficiently, I like honesty & ownership of work in his nature, good job genius, you are such an all-rounder.'
+        },
+        {
+          name: 'Khan Bahadur',
+          position: 'Manager Information Technology @ TDEA (FAFEN) – Pakistan',
+          comment: 'A person who is a real genius I ever met and equipped with complete package of skills in such a young age. Always accepts challenges. He worked with me for almost 4 years and found him loyal and trustworthy and self believer and trust me he never disappoint you. he is himself a team. I always wish o work with him again.'
+        },
+        {
+          name: 'Jameel Ur Rehman',
+          position: 'SAP Project Manager @ Global Marketing Services – Pakistan',
+          comment: 'Hafiz Abdulrehman, joined Global Marketing Services with positive energy and hunger for knowledge. He has supported our development team in successfully delivering numerous system including Inventory Management, Logistic Tracking system, and Field Force Tracking system with Google API,  We have always welcome his initiative ideas and positive attitude towards complicated issues and appreciated his logical approach.'
         }
       ]
     }
