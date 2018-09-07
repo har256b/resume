@@ -7,6 +7,10 @@
 
 ## @TODO
 
+Added CI/CD setup using CircleCI deployment.
+
+## @TODO
+
 1. Create components for each of the section
 2. Update skills
 3. Migrate data to expertnal source (i.e. REST API)
