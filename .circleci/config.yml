@@ -37,7 +37,7 @@ jobs:
       - run:
           name: Deploy Over SSH
           command: |
-            ssh $SSH_USER@$SSH_HOST "cd /var/www/html && git pull origin master"
+            ssh $SSH_USER@$SSH_HOST "cd /var/www/html && git pull origin master && npm install && npm run build && exit"
 
 workflows:
   version: 2
