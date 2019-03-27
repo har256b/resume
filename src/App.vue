@@ -19,7 +19,9 @@ export default {
   @import url('//fonts.googleapis.com/css?family=Lato');
   @import url('//fonts.googleapis.com/css?family=Rokkitt');
 
-  html, body {background: #303030; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;}
+  html, body {
+    background: #303030; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;
+  }
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
