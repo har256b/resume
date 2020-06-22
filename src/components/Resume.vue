@@ -1,7 +1,7 @@
 <template>
   <div class="resume">
 <div id="cv" class="instaFade">
-    <div class="mainDetails">        
+    <div class="mainDetails">
         <table style="width:100%">
             <tr>
                 <td align="left">
@@ -36,7 +36,7 @@
             </article>
             <div class="clear"></div>
         </section>
-        
+
         <!-- Experiences Section -->
         <section>
             <div class="sectionTitle">
@@ -51,7 +51,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        
+
         <!-- Skills Section -->
         <section>
             <div class="sectionTitle">
@@ -66,7 +66,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        
+
         <!-- Edications Section -->
         <section>
             <div class="sectionTitle">
@@ -81,7 +81,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        
+
         <!-- Recommendations Section -->
         <section>
             <div class="sectionTitle">
@@ -108,12 +108,18 @@ export default {
     return {
       name: 'Abdul Rehman, Hafiz',
       title: 'Software Engineering Architect',
-      cover: 'With 8+ years of experience developing leading-edge technologies and architecting enterprise scale applications',
+      cover: 'With 10+ years of experience developing leading-edge technologies and architecting enterprise scale applications',
       experiences: [
+        {
+          position: 'Applicattion Architect',
+          company: 'Spryker GmbH (Berlin, Germany)',
+          duration: 'March 2020 - Present',
+          description: 'Working in the core team of architects and responsible to keep the shape of Germany\'s leading enterprise E-Commerce framework along with felloow architect. Getting involve with the core framework develoopment team on architectural aspects, evaluating the feature requests and writing specification documents, drafting RFC\'s for internal framework improvement. Keep the stream\'s team up to the track. Brain stroming with fellow architects on the future roadmap of the framework.'
+        },
         {
           position: 'Senior Software Engineer (Backend)',
           company: 'Products Up GmbH (Berlin, Germany)',
-          duration: 'June 2018 - Present',
+          duration: 'June 2018 - March 2020',
           description: 'As a member of backend engineering team, I am responsible for developing new executables entities for the upcoming features by following best practices and principles. Not only building them but also taking full responsibility from development to production and build Jenkins jobs to maintain scalability. We are using PHP in a way that each executable is highly decoupled and extremely coherrent to work together.'
         },
         {
@@ -173,7 +179,7 @@ export default {
       ],
       skills: [
         {
-          skill: 'Project Management',
+          skill: 'Microservices, API Gateways',
           order: 1
         },
         {
@@ -185,7 +191,7 @@ export default {
           order: 1
         },
         {
-          skill: 'PHP, Golang, Python',
+          skill: 'PHP, Go, Python',
           order: 1
         },
         {
@@ -379,7 +385,7 @@ export default {
   }
 
   #contactDetails ul li a, a[href^=tel] {
-    color: #444; 
+    color: #444;
     text-decoration: none;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -388,7 +394,7 @@ export default {
     transition: all .3s ease-in;
   }
 
-  #contactDetails ul li a:hover { 
+  #contactDetails ul li a:hover {
     color: #cf8a05;
   }
 
@@ -452,7 +458,7 @@ export default {
     #headshot {
       display: none;
     }
-    
+
     .keySkills {
     -moz-column-count:2;
     -webkit-column-count:2;
@@ -466,27 +472,27 @@ export default {
       margin: 10px auto;
       min-width: 280px;
     }
-    
+
     #headshot {
       display: none;
     }
-    
+
     #name, #contactDetails {
       float: none;
       width: 100%;
       text-align: center;
     }
-    
+
     .sectionTitle, .sectionContent {
       float: none;
       width: 100%;
     }
-    
+
     .sectionTitle {
       margin-left: -2px;
       font-size: 1.25em;
     }
-    
+
     .keySkills {
       -moz-column-count:2;
       -webkit-column-count:2;
@@ -498,11 +504,11 @@ export default {
     .mainDetails {
       padding: 15px 15px;
     }
-    
+
     section {
       padding: 15px 0 0;
     }
-    
+
     #mainArea {
       padding: 0 25px;
     }
@@ -512,7 +518,7 @@ export default {
     -webkit-column-count:1;
     column-count:1;
     }
-    
+
     #name h1 {
       line-height: .8em;
       margin-bottom: 4px;
@@ -592,11 +598,11 @@ export default {
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 1.5s;
     -webkit-animation-timing-function: ease-in;
-  
+
     -moz-animation-name: reset, fade-in;
     -moz-animation-duration: 1.5s;
     -moz-animation-timing-function: ease-in;
-  
+
     animation-name: reset, fade-in;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
@@ -606,16 +612,16 @@ export default {
     -webkit-animation-name: reset, fade-in;
     -webkit-animation-duration: 2.5s;
     -webkit-animation-timing-function: ease-in;
-  
+
     -moz-animation-name: reset, fade-in;
     -moz-animation-duration: 2.5s;
     -moz-animation-timing-function: ease-in;
-  
+
     animation-name: reset, fade-in;
     animation-duration: 2.5s;
     animation-timing-function: ease-in;
   }
-   
+
   .delayOne {
     -webkit-animation-delay: 0, .5s;
     -moz-animation-delay: 0, .5s;
