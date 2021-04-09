@@ -111,16 +111,16 @@ export default {
       cover: 'With 10+ years of experience developing leading-edge technologies and architecting enterprise scale applications',
       experiences: [
         {
-          position: 'Applicattion Architect',
+          position: 'Applicattion Architect (API)',
           company: 'Spryker GmbH (Berlin, Germany)',
           duration: 'March 2020 - Present',
-          description: 'Working in the core team of architects and responsible to keep the shape of Germany\'s leading enterprise E-Commerce framework along with felloow architect. Getting involve with the core framework develoopment team on architectural aspects, evaluating the feature requests and writing specification documents, drafting RFC\'s for internal framework improvement. Keep the stream\'s team up to the track. Brain stroming with fellow architects on the future roadmap of the framework.'
+          description: 'Working in the core team of architects and responsible to keep the shape of Germany\'s leading enterprise E-Commerce framework along with fellow architect. Getting involve with the core framework development team on architectural aspects, evaluating the feature requests and writing specification documents, drafting RFC\'s for internal framework\'s API. Keep the stream\'s team up to the track. Contributed and maaintained core API to GraphQL based streaming API\'s.'
         },
         {
           position: 'Senior Software Engineer (Backend)',
           company: 'Products Up GmbH (Berlin, Germany)',
           duration: 'June 2018 - March 2020',
-          description: 'As a member of backend engineering team, I am responsible for developing new executables entities for the upcoming features by following best practices and principles. Not only building them but also taking full responsibility from development to production and build Jenkins jobs to maintain scalability. We are using PHP in a way that each executable is highly decoupled and extremely coherrent to work together.'
+          description: 'As a member of backend engineering team, I am responsible for developing new executables entities for the upcoming features by following best practices and principles. Not only building them but also taking full responsibility from development to production and build Jenkins jobs to maintain scalability. Implemented GraphQL API via PHP and Go cosumer and migrated them all from legacy RESTful to cross device copmpetible.'
         },
         {
           position: 'Fullstack Cloud Developer',
@@ -183,7 +183,7 @@ export default {
           order: 1
         },
         {
-          skill: 'System Analysis & Design',
+          skill: 'RESTful, GraphQL, gRPC',
           order: 1
         },
         {
