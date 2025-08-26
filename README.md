@@ -1,16 +1,24 @@
-![Circle CI](https://circleci.com/gh/har256b/resume/tree/master.png)
-![Travis CI](https://api.travis-ci.org/har256b/resume.svg?branch=master)
+# temp-vue-project
 
-# resume 2.0
+## Project setup
+```
+yarn install
+```
 
-> My personal resume Vue.js version 
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-## @TODO
+### Compiles and minifies for production
+```
+yarn build
+```
 
-Added CI/CD setup using CircleCI deployment.
+### Lints and fixes files
+```
+yarn lint
+```
 
-## @TODO
-
-1. Create components for each of the section
-2. Update skills
-3. Migrate data to expertnal source (i.e. REST API)
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
